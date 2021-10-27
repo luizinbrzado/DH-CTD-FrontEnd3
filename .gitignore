@@ -1,9 +1,8 @@
 
 /.pnp
 .pnp.js
+*/node_modules
 /build
-/Aula
-/Mesas de trabalho
 
 .DS_Store
 .env.local
