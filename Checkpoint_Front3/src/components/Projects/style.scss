@@ -1,0 +1,17 @@
+@import "../../root.scss";
+
+#projects {
+    max-width: 69rem;
+    text-align: center;
+    padding: 3rem 0.5rem;
+
+    h1 {
+        margin-bottom: 2rem;
+    }
+    #content-projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+}
