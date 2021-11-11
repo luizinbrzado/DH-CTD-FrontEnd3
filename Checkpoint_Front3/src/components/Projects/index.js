@@ -16,7 +16,6 @@ export default class Projects extends Component {
             }
         }).then(res => res.json()).then(res => {
             this.setState({ data: res.data });
-            console.log(res.data);
         })
     }
     // useEffect(() => {

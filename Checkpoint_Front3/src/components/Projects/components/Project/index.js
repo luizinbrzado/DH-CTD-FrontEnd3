@@ -6,7 +6,7 @@ export default function Project({ img, alt, title, link, techs }) {
             <a className="link-project" href={link}>
                 <div>
                     <div className="projects-img">
-                        <img className="img-fluid" img={img} alt={alt} />
+                        <img className="img-fluid" src={img} alt={alt} />
                     </div>
                     <div className="projects-text">
                         <h3>

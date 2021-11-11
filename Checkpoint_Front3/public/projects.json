@@ -2,7 +2,7 @@
   "data": [
     {
       "img": {
-        "src": "https://i.ibb.co/X4k14CT/Projeto-To-Do.png",
+        "src": "./img/Projeto_To_Do.png",
         "alt": "Print do projeto: To Do List"
       },
       "link": {
@@ -14,7 +14,7 @@
     },
     {
       "img": {
-        "src": "./img/Projeto_To_Do.png",
+        "src": "./img/Projeto_Geek_Zone.png",
         "alt": "Print do projeto: Geek Zone"
       },
       "link": {
