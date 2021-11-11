@@ -1,17 +1,4 @@
-
-*/.pnp
 .pnp.js
-*/node_modules/*
-*/build/*
-
-*/node_modules
-*/build
-
-/node_modules/*
-/build/*
-
-/node_modules
-/build
 
 .DS_Store
 .env.local
@@ -22,3 +9,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+Mesa/*/node_modules
+Aula/*/node_modules
