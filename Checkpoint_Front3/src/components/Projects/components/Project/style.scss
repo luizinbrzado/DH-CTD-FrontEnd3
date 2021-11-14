@@ -1,6 +1,12 @@
 @import "../../../../root.scss";
 
-.link-project {
+#Box {
+    width: 100px;
+    height: 100px;
+    background-color: #f55;
+}
+
+.project {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -9,6 +15,7 @@
     border: 1px solid #333333;
     background-color: $bg-second;
     text-decoration: none;
+    min-height: 20rem;
 }
 
 .projects-img {
@@ -28,17 +35,46 @@
 
 .projects-text {
     width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
 
-    h3 {
-        display: flex;
-        font-size: 1.1rem;
-        gap: 0.5rem;
-        align-items: baseline;
-        color: $text-primary;
+    .links {
+        width: 100%;
+
+        .link-project {
+            display: flex;
+            gap: 0.5rem;
+            align-items: baseline;
+            color: $text-primary;
+            text-decoration: none;
+            cursor: pointer;
+
+            h3 {
+                font-size: 1.5rem !important;
+            }
+
+            i {
+                font-size: 1.4rem;
+            }
+        }
+
+        .link-github {
+            color: $text-primary;
+            text-decoration: none;
+            cursor: pointer;
+
+            i {
+                font-size: 1.8rem;
+            }
+        }
     }
 
     p {
-        margin-top: 1rem;
+        margin: 0;
+        width: 100%;
+        text-align: left;
         color: $text-second;
     }
 }
