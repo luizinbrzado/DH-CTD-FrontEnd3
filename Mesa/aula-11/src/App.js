@@ -25,8 +25,9 @@ export default class App extends Component {
           initialValues={{
             nome: '',
             telefone: '',
-            idade: 0
+            email: ''
           }}
+          
           onSubmit={this.handleSubmit}>
           <Form>
             <label for="nome">Nome</label>
